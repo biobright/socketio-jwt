@@ -1,3 +1,8 @@
+## [v4.5.1-bb-socketio-jwt-2017-08-03]
+- added the option to decode the header
+- added the event "unauthorized" emitted to server
+- added a message to server and client when timeout has passed
+
 ## [4.0.1] - 2015-04-22
 - [4cf0651] Minor. replace regexp for native comparisoon (`Nikita Gusakov`)
 
