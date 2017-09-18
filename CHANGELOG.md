@@ -1,3 +1,6 @@
+## Unreleased
+- Add Instanbul CLI [nyc](https://github.com/istanbuljs/nyc) for test coverage, `npm run coverage`
+
 ## [v4.5.1-bb-socketio-jwt-2017-08-03]
 - added the option to decode the header
 - added the event "unauthorized" emitted to server

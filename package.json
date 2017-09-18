@@ -18,6 +18,8 @@
     "url": "https://github.com/auth0/socketio-jwt.git"
   },
   "scripts": {
+    "clean": "rm -rf coverage node_modules",
+    "coverage": "nyc --eager --all --reporter=lcov --reporter=text-lcov --reporter=text npm test",
     "test": "mocha"
   },
   "license": "MIT",
@@ -29,6 +31,7 @@
     "body-parser": "~1.13.3",
     "express": "~4.10.6",
     "mocha": "~1.17.0",
+    "nyc": "^11.2.1",
     "passport-local": "~0.1.6",
     "request": "~2.19.0",
     "serve-static": "^1.7.1",
